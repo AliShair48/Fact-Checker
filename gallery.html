@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles | TruthVerify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation (same as index.html) -->
+    
+    <main class="container">
+        <section class="article-filters">
+            <div class="search-bar">
+                <input type="text" placeholder="Search articles...">
+                <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-options">
+                <select class="form-select">
+                    <option>All Categories</option>
+                    <option>Politics</option>
+                    <option>Health</option>
+                    <option>Technology</option>
+                </select>
+                <select class="form-select">
+                    <option>Sort By</option>
+                    <option>Newest</option>
+                    <option>Most Votes</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="articles-grid" id="articles-container">
+            <div class="article-card">
+                <div class="article-image" 
+                     style="background-image: url('images/article-1.jpg')"></div>
+                <!-- Content -->
+              </div>
+            <!-- Articles will be loaded via JavaScript -->
+        </section>
+    </main>
+
+    <!-- Footer (same as index.html) -->
+
+    <script src="js/main.js"></script>
+    <script src="js/voting.js"></script>
+</body>
+</html>

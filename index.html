@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthVerify | Fact-Checking Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="TruthVerify Logo">
+                TruthVerify
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Articles</a></li>
+                <li><a href="submit.html">Submit</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="auth-links">
+                    <a href="login.html" class="btn btn-outline">Login</a>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Community-Powered Fact Checking</h1>
+                <p>Join thousands of users verifying news articles and fighting misinformation</p>
+                <div class="hero-buttons">
+                    <a href="signup.html" class="btn btn-primary btn-lg">Get Started</a>
+                    <a href="gallery.html" class="btn btn-outline btn-lg">Browse Articles</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-upload"></i>
+                    </div>
+                    <h3>Submit Articles</h3>
+                    <p>Share suspicious news items for community verification.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <h3>Vote on Accuracy</h3>
+                    <p>Help determine the truthfulness through our voting system.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Analysis</h3>
+                    <p>Our system detects potential biases automatically.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Articles -->
+    <section class="recent-articles">
+        <div class="container">
+            <h2 class="section-title">Recently Verified</h2>
+            <div class="articles-grid">
+                <!-- Article cards will be loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>TruthVerify</h3>
+                    <p>A community-driven platform to combat misinformation through collective intelligence.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> TruthVerify. All rights reserved.</p>
+            </div>
+        </div>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="TruthVerify Logo" width="150">
+          </a>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

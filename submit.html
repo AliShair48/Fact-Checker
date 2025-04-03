@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Article | TruthVerify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation (same as index.html) -->
+
+    <main class="container">
+        <section class="submit-section">
+            <h1>Submit Article for Verification</h1>
+            <p>Help us fight misinformation by submitting suspicious articles for community review.</p>
+            
+            <form id="articleForm" class="submit-form">
+                <div class="form-group">
+                    <label for="article-title">Article Title</label>
+                    <input type="text" id="article-title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="article-url">Article URL</label>
+                    <input type="url" id="article-url" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="article-category">Category</label>
+                    <select id="article-category" required>
+                        <option value="">Select a category</option>
+                        <option value="politics">Politics</option>
+                        <option value="health">Health & Science</option>
+                        <option value="technology">Technology</option>
+                        <option value="business">Business</option>
+                        <option value="entertainment">Entertainment</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="article-concern">Your Concerns</label>
+                    <textarea id="article-concern" rows="5" required placeholder="What aspects of this article seem questionable?"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>Supporting Evidence (Optional)</label>
+                    <input type="file" id="article-evidence">
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-lg">Submit for Verification</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer (same as index.html) -->
+    <script src="js/main.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+</html>
